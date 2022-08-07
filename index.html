@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <!-- Principio de Navbar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid text-bg-primary p-3">
+        <a class="navbar-brand" href="#">Noticias</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#"
+              >Argentina</a
+            >
+            <a class="nav-link active" aria-current="page" href="#">Mundo</a>
+            <a class="nav-link active" aria-current="page" href="#">Deportes</a>
+            <a class="nav-link active" aria-current="page" href="#"
+              >Espectaculo</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Fin del Navbar-->
+    <!--Princio de Carrusel-->
+    <div class="container-fluid text-bg-dark p-3">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS44j0M59UTqR6WAX1IHs-p-qd7FLE-NyNBKKdNhksfKIcxdhF1fgY_FAZeFblClcb-yJI&usqp=CAU"
+              class="d-block w-75 mx-auto"
+              alt="Ultima_ Not"
+              height="250"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpfVzDIjCjtGM4JEfeX_ydcxttkysd4AHJhH3Ii_mpmGg1EJAeOeqozSX9bbvvcF0qo5o&usqp=CAU"
+              class="d-block w-75 mx-auto"
+              alt="Noticia"
+              height="250"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkMQF5yxfMveZs1zjU3Ww256DMK22cnR7qhwNhs2DbVZrdCIuN1AbFrrxCzo1W9Qn0-wo&usqp=CAU"
+              class="d-block w-75 mx-auto"
+              alt="Not_del_dia"
+              height="250"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!--Fin de carrusel-->
+    <!--principio de Grid-->
+    <div>
+      <div class="container text-center pt-5">
+        <div class="row">
+          <div class="col">
+            <!--Principio de tarjeta-->
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxSyAMIQHDHQY46-veB0nl3PwrSGVDTIhrFQ&usqp=CAU"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dollar hoy</h5>
+                <p class="card-text">
+                  Minuto a minuto. ¿A cuánto cotizan el dólar oficial y el blue?
+                </p>
+                <a
+                  href="https://lhquti.csb.app/noticia.html"
+                  class="btn btn-primary"
+                  >Leer más</a
+                >
+              </div>
+            </div>
+            <!--Fin de tarjeta-->
+          </div>
+          <div class="col">
+            <!--Principio de tarjeta-->
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5_BNQWKRb1RoHyKTklaVXGgKTZQMrsPlzzQ&usqp=CAU"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Dr. Strange en el multiverso de la locura
+                </h5>
+                <p class="card-text">
+                  Un viaje a lo desconocido que emprende Doctor Strange, donde
+                  atraviesa las alucinantes y peligrosas realidades alternativas
+                  del Multiverso para enfrentarse a un nuevo y misterioso
+                  adversario.
+                </p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+            <!--fin de tarjeta-->
+          </div>
+          <div class="col">
+            <!--Principio de tarjeta-->
+            <div class="card" style="width: 18rem;">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT04R2QN4GLCYzcJZjEtwZFx2wmlI2tzMPhPg&usqp=CAU"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Boca - Estudiantes</h5>
+                <p class="card-text">
+                  Boca Juniors derrotó este domingo en La Bombonera a
+                  Estudiantes de La Plata 3 a 1 por la décima fecha de la Liga
+                  Profesional.
+                </p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+            <!--fin de tarjeta-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin de Grid-->
+    <!--Fin de tarjeta-->
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Copyright -->
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.2);"
+      >
+        © 2022 Copyright:
+        <a class="text-dark" href="#">Amaya Gonzalo</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
